@@ -1,0 +1,159 @@
+// Load with --load-config examples/2.jsonc
+// Note that you must replace the image path to an existing image to display it.
+
+{
+  "logo": {
+    "source": "~/Documents/glitchcore/dlyaconfig/ascii/logo1.txt",
+    "width": 30,
+    "height": 20,
+    "padding": {
+      "top": 0,
+      "left": 0,
+    },
+    "color": { "1": "cyan" },
+    //	"color": {"2": "purple"}
+  },
+  "display": {
+    "separator": " -> ",
+    "constants": ["──────────────────────────────"],
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┌{$1}{$1}┐",
+      "outputColor": "90",
+    },
+    {
+      "type": "title",
+      "keyWidth": 10,
+      "keyColor": "magenta",
+    },
+    {
+      "type": "custom",
+      "format": "└{$1}{$1}┘",
+      "outputColor": "90",
+    },
+    {
+      "type": "custom",
+      "format": "┌{$1}{$1}┐",
+      "outputColor": "90",
+    },
+    {
+      "type": "os",
+      "key": "{icon} OS",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "kernel",
+      "key": "│ ├",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "command",
+      "key": "│ ├󰔠",
+      "keyColor": "magenta",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
+    },
+    {
+      "type": "packages",
+      "key": "│ ├󰏖",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "shell",
+      "key": "│ └",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "wm",
+      "key": " DE/WM",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "lm",
+      "key": "│ ├󰧨",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "wmtheme",
+      "key": "│ ├󰉼",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "icons",
+      "key": "│ ├󰀻",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "terminal",
+      "key": "│ ├",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "wallpaper",
+      "key": "│ └󰸉",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "host",
+      "key": "󰌢 PC",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "disk",
+      "key": "│ ├",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "memory",
+      "key": "│ ├󰑭",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "cpu",
+      "key": "│ ├",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├󰍛",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "swap",
+      "key": "│ ├󰓡",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "uptime",
+      "key": "│ ├󰅐",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "display",
+      "key": "│ └󰍹",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "sound",
+      "key": " SND",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "player",
+      "key": "│ ├󰥠",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "media",
+      "key": "│ └󰝚",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "custom",
+      "format": "└{$1}{$1}┘",
+      "outputColor": "90",
+    },
+    "break",
+  ],
+}

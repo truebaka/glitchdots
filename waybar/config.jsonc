@@ -1,0 +1,24 @@
+{
+	"layer": "bottom",
+	"position": "top",
+	"height": 35,
+//"width": 1280,
+	"width": 1880,
+	"margin-top": 10,
+	"modules-left": [
+		"custom/apps",	
+		"custom/wallpaperchange",
+		"hyprland/window",
+		"mpris"
+	],
+	"modules-center": [
+		"hyprland/workspaces"
+	],
+	"modules-right": [
+		"hyprland/language",
+		"pulseaudio",
+		"clock",
+		"custom/powermenu"
+	],
+	"include": "~/.config/waybar/modules.jsonc"
+}

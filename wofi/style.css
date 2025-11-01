@@ -1,0 +1,46 @@
+* {
+    font-family: "RH Phonic", monospace;
+}
+
+window {
+    background-color: #ff15b7;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    background-color: #4d0031;
+    color: #ffea51;
+}
+
+#inner-box {
+    background-color: #620058;
+}
+
+#outer-box {
+    margin: 2px;
+    padding: 10px;
+    background-color: #620058;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    padding: 4px;
+    color: #ff15b7;
+}
+
+#entry:nth-child(even) {
+    background-color: #620058;
+}
+
+#entry:selected {
+    background-color: #7c0070;
+}
+
+#text:selected {
+    background: transparent;
+}
