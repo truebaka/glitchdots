@@ -1,0 +1,108 @@
+* {
+    font-family: BigBlueTermPlus Nerd Font Mono;
+    min-height: 0px;
+    font-size: 14px;
+}
+
+window#waybar {
+    border-radius: 10px;
+    color: #ffffff;
+    background: transparent;
+    opacity: 1;
+}
+
+#custom-apps {
+    color: #ff15b7;
+    margin-left: 0;
+    /*	margin-right: 5px;*/
+    font-size: 23px;
+    opacity: 1;
+    background: #3a0024;;
+    padding: 0 10px 0 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+#workspaces {
+    margin-left: 0;
+    background: #3a0024;
+    border-radius: 10px;
+    border-bottom: 5px #101010;
+}
+
+#workspaces button {
+    background: transparent;
+    color: #ff15b7;
+    border-radius: 10px;
+}
+
+#workspaces button.active {
+    background: #7c0070;
+}
+
+#workspaces button:hover {
+    background: #620058;
+}
+
+#pulseaudio {
+    color: #ff15b7;
+    margin-left: 0;
+    background: #3a0024;
+    padding: 0 0 0 0;
+}
+
+#network {
+    color: #ff15b7;
+    margin-left: 0;
+    background: #3a0024;
+    padding: 3px 0 0 0;
+}
+
+
+#custom-powermenu {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 23px;
+    margin-top: 0;
+    color: #ff15b7;
+    background: #3a0024;
+    padding: 1px 10px 0 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+#clock {
+    margin-left: 0;
+    color: #ff15b7;
+    background: #3a0024;
+    padding: 0 10px 0 10px;
+}
+
+#custom-wallpaperchange {
+    margin-left: 0;
+    font-size: 20px;
+    color: #ff15b7;
+    background: #3a0024;
+    padding: 0 15px 0 7px;
+    border-radius: 0 10px 10px 0;
+}
+
+#language {
+    color: #ff15b7;
+    background: #3a0024;
+    padding: 0 10px 0 10px;
+    border-radius: 10px 0 0 10px;
+}
+#window {
+    color: #ff15b7;
+    background: #3a0024;
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+#mpris {
+    color: #ff15b7;
+    background: #3a0024;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px 10px 10px 10px;
+}

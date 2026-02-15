@@ -1,0 +1,86 @@
+/* Главный шрифт сетапа */
+* {
+    font-family: "BigBlueTermPlus Nerd Font Mono", monospace;
+    color: #ff15b7;
+}
+
+.window {
+    background: rgba(58, 0, 36, 0.9); /* #3a0024 */
+    border: 2px solid #ff15b7;
+    border-radius: 15px; /* Закругляем */
+}
+
+.monitor {
+    background: rgba(70, 10, 45, 0.6);
+}
+
+.workspace {
+    background: rgba(45, 0, 28, 0.7);
+}
+
+.client {
+    background: rgba(58, 0, 36, 0.8);
+}
+
+/* Активное окно в свитчере */
+.client:selected {
+    background: #ff15b7;
+    color: #3a0024;
+}
+
+.client-image {
+    background: rgba(40, 0, 25, 0.9);
+}
+
+.launcher {
+    background: rgba(58, 0, 36, 0.9);
+}
+
+.launcher-input {
+    background: #3a0024;
+}
+
+.launcher-results {
+    background: rgba(45, 90, 75, 0.0); /* Прозрачно, чтобы не перекрывать */
+}
+
+.launcher-item {
+    background: rgba(70, 70, 70, 0.2);
+}
+
+/* Выделенный пункт в лаунчере */
+.launcher-item:selected {
+    background: #ff15b7;
+    color: #3a0024;
+}
+
+.launcher-item-inner {
+    background: transparent;
+}
+
+.launcher-exec {
+    background: rgba(255, 21, 183, 0.1);
+}
+
+.launcher-key {
+    background: #ff15b7;
+    color: #3a0024;
+}
+
+.launcher-plugins {
+    background: rgba(55, 45, 65, 0.4);
+}
+
+.launcher-plugin {
+    background: rgba(75, 45, 90, 0.3);
+}
+
+.launcher-plugin-inner {
+    background: transparent;
+}
+
+.launcher-plugin-key {
+    background: #ff15b7;
+    color: #3a0024;
+}
+

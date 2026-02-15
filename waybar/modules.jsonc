@@ -1,0 +1,56 @@
+{
+  "custom/apps": {
+    "format": "󰣇",
+    "on-click": "~/.config/waybar/scripts/da.sh",
+    "tooltip": false
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "sort-by-number": true,
+    "on-click": "activate"
+  },
+  "mpris": {
+    "format": "{player_icon} {status} | {title} - {artist}",
+    "max-length": 25,
+    "status-icons": {
+        "paused": "⏸"
+   },
+    "format-paused": "{status_icon} {status} | {title} - {artist} {status}",
+    "player-icons": {
+        "default": "▶"
+   }
+  },
+  "clock": {
+    "format": " {:%b %d, %H:%M}",
+    "tooltip": false
+  },
+  "custom/powermenu": {
+    "format": "󰤂",
+    "on-click": "~/.config/waybar/scripts/powermenu.sh",
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "format": " {volume}%",
+    "on-click": "~/.config/waybar/scripts/volume.sh"
+  },
+  "hyprland/language": {
+    "format": " {short}",
+    "on-click": "hyprctl switchxkblayout all next -q",
+    "tooltip": false
+  },
+  "custom/wallpaperchange": {
+    "format": "󰸉",
+    "on-click": "/home/aleksik/.config/waybar/scripts/change-wallpaper.sh  --choose"
+  },
+  "hyprland/window": {
+        "max-length": 40,
+        "separate-outputs": true
+  },
+  "network": {
+        "format-ethernet": " {bandwidthDownBytes} ⇣ {bandwidthUpBytes} ⇡ | ",
+        "format-disconnected": "Disconnected",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\nDown: {bandwidthDownBits} Up: {bandwidthUpBits}",
+        "interval": 1 // Интервал обновления в секундах
+    }
+}

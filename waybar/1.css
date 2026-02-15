@@ -1,0 +1,57 @@
+* {
+	font-family: JetBrains Mono;
+	min-height: 0px;
+	font-size: 14px;
+}
+
+window#waybar
+{
+	border-radius: 20px;
+	color: #c233ff;
+	background: #37004f;
+	opacity: 1;
+}
+
+#custom-apps 
+{
+	color: #e09dfc;
+	margin-left: 13px;
+	margin-right: 5px;
+	font-size: 23px;
+	opacity: 1;
+}
+
+#workspaces
+{
+	margin-left: 7px;
+}
+
+#workspaces button 
+{	
+	background: transparent;
+	color: #962feb;
+}
+
+#workspaces button.active
+{
+	background: #470363;
+}
+
+#workspaces button:hover
+{
+	background: #a751ed;
+}
+
+#pulseaudio
+{
+	margin-left: 5px;
+}
+
+#custom-powermenu
+{
+	color: #e06c75;
+	margin-left: 15px;
+	margin-bottom: 2px;
+	font-size: 23px;
+	margin-right: 13px;
+}
